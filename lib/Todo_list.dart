@@ -47,6 +47,7 @@ class _TodoListState extends State<TodoList> {
               ),
               onPressed: () {
                 Navigator.of(context).pop();
+                controller.clear();
               },
             ),
             MaterialButton(
